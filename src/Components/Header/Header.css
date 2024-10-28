@@ -1,0 +1,24 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+    margin: 0;
+    background-color: #209CEE;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-section a{
+    text-decoration: none;
+    color: white;
+    margin-right: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.nav-section a:hover{
+    opacity: 0.6;
+}

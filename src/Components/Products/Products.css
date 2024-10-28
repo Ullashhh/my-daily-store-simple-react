@@ -1,0 +1,10 @@
+.products-section{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.display-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
